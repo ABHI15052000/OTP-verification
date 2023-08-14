@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "635122504733",
+    "project_id": "otp-and--auth",
+    "storage_bucket": "otp-and--auth.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:635122504733:android:99955711a73a24b7b722f4",
+        "android_client_info": {
+          "package_name": "com.anonymous.Login"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "635122504733-mh2bdibg6n0f2tp911gvm9apiulqprtm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB86yiiuROvRk8TH9Kuq2VfcTGwjHzHDUg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "635122504733-mh2bdibg6n0f2tp911gvm9apiulqprtm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
