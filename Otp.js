@@ -32,6 +32,7 @@ const Otp = () => {
   async function confirmCode() {
     try {
       await confirm.confirm(code);
+      console.log("ggfdgdsd");
     } catch (error) {
       console.log("Invalid code.");
     }
@@ -40,14 +41,18 @@ const Otp = () => {
     return (
       <Button
         title="Phone Number Sign In"
-        onPress={() => signInWithPhoneNumber("+91 7807444104")}
+        onPress={() => signInWithPhoneNumber("+91 7496822790")}
       />
     );
   }
 
   return (
     <>
-      <TextInput value={code} onChangeText={(text) => setCode(text)} />
+      <TextInput
+        value={code}
+        style={{ borderWidth: 1, width: 200 }}
+        onChangeText={(text) => setCode(text)}
+      />
       <Button title="Confirm Code" onPress={() => confirmCode()} />
     </>
   );
