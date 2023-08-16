@@ -1,10 +1,12 @@
 import { StatusBar } from "expo-status-bar";
 import { StyleSheet, Text, View } from "react-native";
 import Otp from "./Otp";
+import GoogleAuthentication from "./GoogleSignin";
 export default function App() {
   return (
     <View style={styles.container}>
-      <Otp />
+      <GoogleAuthentication />
+      {/* <Otp /> */}
       <StatusBar style="auto" />
     </View>
   );
